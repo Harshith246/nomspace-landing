@@ -60,7 +60,7 @@ const App: React.FC = () => {
             Send and receive crypto
           </Heading>
           <Text sx={{ display: "block" }} variant="regularGray" mb={4}>
-            Wallet addresses are hard to remember. Your friend's name isn't.
+            Wallet addresses are hard to remember. Names aren't.
           </Text>
           <Flex sx={{ justifyContent: "center" }} mb={6}>
             <Card sx={{ width: "fit-content", px: 4 }}>
