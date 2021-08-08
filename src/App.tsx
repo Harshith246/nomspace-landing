@@ -79,8 +79,8 @@ const App: React.FC = () => {
             Reserve using cUSD
           </Heading>
           <Text sx={{ display: "block" }} variant="regularGray" mb={4}>
-            cUSD is one of the most powerful stablecoins in crypto today. You
-            can get cUSD directly on{" "}
+            cUSD is one of the most powerful stablecoins in crypto. You can get
+            cUSD directly on{" "}
             <Link
               target="_blank"
               rel="noopener noreferrer"
