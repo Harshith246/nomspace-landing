@@ -35,9 +35,23 @@ const App: React.FC = () => {
             <br />
             Reserve yours
           </Heading>
-          <Button>Launch App</Button>
+          <Button>
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://app.nom.space"
+              sx={{ textDecoration: "none" }}
+            >
+              <Text>Launch App</Text>
+            </Link>
+          </Button>
           <Box mb={2}>
-            <Image src={Illustration} sx={{ height: ["400px"], my: "-32px" }} />
+            <Image
+              src={Illustration}
+              sx={{
+                height: ["240px", "400px"],
+              }}
+            />
           </Box>
 
           <Divider my={[0, 5]} mb={4} />

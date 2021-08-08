@@ -39,7 +39,16 @@ export const Header: React.FC = () => {
           >
             Discord
           </Link>
-          <Button>Launch App</Button>
+          <Button>
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://app.nom.space"
+              sx={{ textDecoration: "none" }}
+            >
+              <Text>Launch App</Text>
+            </Link>
+          </Button>
         </Flex>
       ) : (
         <Box>
