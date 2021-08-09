@@ -12,7 +12,7 @@ export const Logo: React.FC = () => {
         history.push("/");
       }}
     >
-      <Box mr={2}>
+      <Box sx={{ fill: "text", mr: 2 }}>
         <LogoIcon />
       </Box>
       <Text variant="logo">Nomspace</Text>

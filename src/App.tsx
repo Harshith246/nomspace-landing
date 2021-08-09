@@ -42,7 +42,7 @@ const App: React.FC = () => {
               href="https://app.nom.space"
               sx={{ textDecoration: "none" }}
             >
-              <Text>Launch App</Text>
+              <Text color="#FAFAFA">Launch App</Text>
             </Link>
           </Button>
           <Box mb={2}>
